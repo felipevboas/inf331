@@ -18,3 +18,9 @@ PlayStore OWS (https://github.com/felipevboas/inf331/blob/master/lab01/orange/Ex
 # Projeto de Composição de Componentes para Recomendação
 ## Diagrama de Componentes
 ![ComponentesExercicio3](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicio3.png?raw=true)
+
+# Tarefa Projeto de Composição de Pedido
+## Diagrama de Componentes
+![ComponentesExercicio4](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicio%204%20-%20Componentes.png?raw=true)
+## Diagrama de Interfaces
+![InterfacesExercicio4](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicio%204%20-%20Interfaces.png?raw=true)
