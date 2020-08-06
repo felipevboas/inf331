@@ -14,3 +14,7 @@ PlayStore OWS (https://github.com/felipevboas/inf331/blob/master/lab01/orange/Ex
 ![PlayStoreHistoograma1](https://github.com/felipevboas/inf331/blob/master/lab01/images/Grafico1.PNG?raw=true)
 ### Histograma - Quantidade de instalações por classificação etária (Somente da categoria Educação)
 ![PlayStoreHistoograma2](https://github.com/felipevboas/inf331/blob/master/lab01/images/Grafico2.PNG?raw=true)
+
+# Projeto de Composição de Componentes para Recomendação
+## Diagrama de Componentes
+![ComponentesExercicio3](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicio3.png?raw=true)
