@@ -6,7 +6,7 @@ FoodMart OWS (https://github.com/felipevboas/inf331/blob/master/lab01/orange/Foo
 
 # Projeto Orange / Análise de Dados do Google PlayStore
 ## Imagem do Projeto
-![PlayStoreImage](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicios2.PNG?raw=true)
+![PlayStoreImage](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicios2.png?raw=true)
 ## Arquivo do Projeto
 PlayStore OWS (https://github.com/felipevboas/inf331/blob/master/lab01/orange/Exercicio2.ows)
 ## Gráfico(s) de Análise
