@@ -21,7 +21,7 @@ PlayStore OWS (https://github.com/felipevboas/inf331/blob/master/lab01/orange/Ex
 
 # Projeto de Composição de Componentes para Recomendação
 ## Diagrama de Componentes
-![ComponentesExercicio3](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicio3.png?raw=true)
+![ComponentesExercicio3](https://github.com/felipevboas/inf331/blob/master/lab01/images/Exercicios3.png?raw=true)
 
 Neste diagrama de componentes utilizei compontentes bem semelhantes aos que temos no Orange:
 * O DataSetComponent representa uma lista de produtos
