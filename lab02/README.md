@@ -1,7 +1,7 @@
-# Tarefa sobre catálogo de componentes
+## Tarefa sobre catálogo de componentes
 Notebook Lab 02 (https://github.com/felipevboas/inf331/blob/master/lab02/notebook/components-01-catalog.ipynb)
 
-# Tarefa Web Components 1
+## Tarefa Web Components 1
 ~~~html
 <dcc-trigger label="Mundo P"
              action="noticia/mundo/politica"
@@ -42,7 +42,7 @@ Notebook Lab 02 (https://github.com/felipevboas/inf331/blob/master/lab02/noteboo
 </dcc-lively-talk>
 ~~~
 
-#Tarefa Web Components 2
+## Tarefa Web Components 2
 ~~~html
 <dcc-trigger label="Next Item" action="next/rss">
 </dcc-trigger>
