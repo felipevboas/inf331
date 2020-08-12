@@ -2,7 +2,6 @@
 Aqui vai o link
 
 # Tarefa Web Components 1
-<!--
 <dcc-trigger label="Mundo P"
              action="noticia/mundo/politica"
              value="Mundo Política">
@@ -40,7 +39,6 @@ Aqui vai o link
                  speech="I heard about a ">
   <subscribe-dcc topic="noticia/#"></subscribe-dcc>
 </dcc-lively-talk>
--->
 
 #Tarefa Web Components 2
 <dcc-trigger label="Next Item" action="next/rss">
