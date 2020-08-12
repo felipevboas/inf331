@@ -1,0 +1,37 @@
+<dcc-trigger label="Mundo P"
+             action="noticia/mundo/politica"
+             value="Mundo Política">
+</dcc-trigger>
+
+<dcc-trigger label="Brasil P"
+             action="noticia/brasil/politica"
+             value="Brasil Política">
+</dcc-trigger>
+
+<dcc-trigger label="Brasil E"
+             action="noticia/brasil/esporte"
+             value="Brasil Esporte">
+</dcc-trigger>
+
+<dcc-trigger label="Bahia E"
+             action="noticia/bahia/esporte"
+             value="Bahia Esporte">
+</dcc-trigger>
+
+<dcc-lively-talk duration="0s"
+                 character="doctor"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/+/politica"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk duration="0s"
+                 character="nurse"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/brasil/+"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk duration="0s"
+                 character="patient"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/#"></subscribe-dcc>
+</dcc-lively-talk>
