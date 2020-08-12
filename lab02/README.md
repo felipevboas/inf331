@@ -1,5 +1,5 @@
 # Tarefa sobre catálogo de componentes
-Notebook Lab 02(https://github.com/felipevboas/inf331/blob/master/lab02/notebook/components-01-catalog.ipynb)
+Notebook Lab 02 (https://github.com/felipevboas/inf331/blob/master/lab02/notebook/components-01-catalog.ipynb)
 
 # Tarefa Web Components 1
 ~~~html
