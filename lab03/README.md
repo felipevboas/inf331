@@ -4,4 +4,15 @@
 ## Tarefa 2
 ![Tarefa2](https://github.com/felipevboas/inf331/blob/master/lab03/images/tarefa2.png?raw=true)
 
-O componente "Pedido" é responsável por passar os dados do produto ao componente "Leilão" que posteriormente tratará de gerenciar as mensagens transmitidas aos outros componentes através do barramento. O componente "Seleciona Fornecedores" filtrará os fornecedores que vendem aquele produto. O "Realização ofertas" é o responsável por transmitir ao barramento os preços dos fornecedores previamente selecionados para o produto do leilão. Por fim, o componente "Forneceedor" armazena os dados dos 3 fornecedores com melhor preço, respeitando os critérios de desempate.
+O componente "Pedido" é responsável por passar os dados do produto ao componente "Leilão" que posteriormente tratará de gerenciar as mensagens transmitidas aos outros componentes através do barramento. O componente "Seleciona Fornecedores" filtrará os fornecedores que vendem aquele produto. O "Realização ofertas" é o responsável por transmitir ao barramento os preços dos fornecedores previamente selecionados para o produto do leilão. Por fim, o componente "Fornecedor" armazena os dados dos 3 fornecedores com melhor preço, respeitando os critérios de desempate.
+
+## Tarefa 3
+![Tela1](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela1.png?raw=true)
+![Tela2](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela2.png?raw=true)
+![Tela3](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela3.png?raw=true)
+![Tela4](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela4.png?raw=true)
+![Tela5](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela5.png?raw=true)
+Arquivo do projeto (https://github.com/felipevboas/inf331/blob/master/lab03/app/produtos.aia)
+
+## Tarefa 4
+Link da tarefa no repositório da equipe (https://github.com/inf331Equipe05/equipe5/tree/master/lab03)
