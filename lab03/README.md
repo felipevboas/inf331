@@ -4,7 +4,11 @@
 ## Tarefa 2
 ![Tarefa2](https://github.com/felipevboas/inf331/blob/master/lab03/images/tarefa2.png?raw=true)
 
-O componente "Pedido" é responsável por passar os dados do produto ao componente "Leilão" que posteriormente tratará de gerenciar as mensagens transmitidas aos outros componentes através do barramento. O componente "Seleciona Fornecedores" filtrará os fornecedores que vendem aquele produto. O "Realização ofertas" é o responsável por transmitir ao barramento os preços dos fornecedores previamente selecionados para o produto do leilão. Por fim, o componente "Fornecedor" armazena os dados dos 3 fornecedores com melhor preço, respeitando os critérios de desempate.
+O componente "Pedido" é responsável por passar os dados do produto ao componente "Leilão" que iniciará o processo de envio e recebimento de mensagens através do barramento.
+* O componente "Leilão" posta uma mensagem com o tópico "Nome do Produto"
+* O componente "Seleção Fornecedores" que assina o tópico "Nome do Produto" posta uma mensagem com o tópico "Nome do Produto/Fornecedor"
+* O componente "Realização Ofertas" que assim o tópico "Nome do Produto/Fornecedor" posta uma mensagem com o tópico "Fornecedor/Preço/Produto"
+* O componente "Seleção Fornecedores" assina o tópico "Fornecedor/Preço/Produto" e lista os 3 fornecedores com menor preço.
 
 ## Tarefa 3
 ![Tela1](https://github.com/felipevboas/inf331/blob/master/lab03/images/Tela1.PNG?raw=true)
