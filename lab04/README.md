@@ -18,7 +18,7 @@
   - yesterday : Se deseja o acumulado do dia anterior ou não (boolean)
   - sort: ordena os dados de acordo com o parâmtetro passado aqui. Ex: deaths, cases (string)
   
-  Obs: Como eram muitos países copiei só a resposta dos 3 primeiros.
+  Obs: Como eram muitos países copiei só a resposta dos 2 primeiros.
   
 * **URL completa da requisição**: 'https://corona.lmao.ninja/v2/countries'
 * **Cabeçalho HTTP da chamada**:
