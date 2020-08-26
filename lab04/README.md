@@ -2,10 +2,10 @@
 ![Tarefa1](https://github.com/felipevboas/inf331/blob/master/lab04/images/Tarefa1.png?raw=true)
 
 #Tarefa 2
-![Tarefa2](https://github.com/felipevboas/inf331/blob/master/lab04/images/Tarefa2.png?raw=true)
+![Tarefa2](https://github.com/felipevboas/inf331/blob/master/lab04/images/Tarefa2.PNG?raw=true)
 
 #Tarefa 3
-![Tarefa3](https://github.com/felipevboas/inf331/blob/master/lab04/images/Tarefa3.png?raw=true)
+![Tarefa3](https://github.com/felipevboas/inf331/blob/master/lab04/images/Tarefa3.PNG?raw=true)
 
 # Tarefa 4
 ### Serviço 1
