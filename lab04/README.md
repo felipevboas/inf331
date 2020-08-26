@@ -109,10 +109,10 @@
 * **URL completa da requisição**: 'https://www.cheapshark.com/api/1.0/games'
 * **Cabeçalho HTTP da chamada**:
 
-![servico1_header](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_header.PNG?raw=true)
+![servico1_header](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico2_header.PNG?raw=true)
 * **Cabeçalho HTTP da resposta:**
 
-![servico1_headerresponse](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_headerresponse.PNG?raw=true)
+![servico1_headerresponse](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico2_headerresponse.PNG?raw=true)
 * **Conteúdo da resposta:**
 ~~~json
 [
