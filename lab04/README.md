@@ -12,13 +12,15 @@
 
 # Tarefa 4
 ### Serviço 1
-* **Título do serviço**: `Region Statistics`
+* **Título do serviço**: `All Countries`
 * **Breve descrição**:
-  Serviço que recebe o parâmetros regionais dos Estados Unidos e retorna valores de casos de COVID-19. Recebe os seguintes parâmetros:
-  - region (obrigatório): Estado de onde se deseja o dado (string)
-  - date (opcional): Data no formato yy-mm-dd (Datetime)
-  - sub_areas (opcional): Se deseja mostrar também as sub-áreas do estado (boolean)
-* **URL completa da requisição**: 'https://api.quarantine.country/api/v1/summary/region?sub_areas=0&region=new_york'
+  Serviço que recebe que mostra dados sobre casos de COVID em diversos países do mundo e ordena como você desejar. Obs: não é o mesmo endpoint visto em sala.
+  - yesterday : Se deseja o acumulado do dia anterior ou não (boolean)
+  - sort: ordena os dados de acordo com o parâmtetro passado aqui. Ex: deaths, cases (string)
+  
+  Obs: Como eram muitos países copiei só a resposta dos 3 primeiros.
+  
+* **URL completa da requisição**: 'https://corona.lmao.ninja/v2/countries'
 * **Cabeçalho HTTP da chamada**:
 
 ![servico1_header](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_header.PNG?raw=true)
@@ -27,32 +29,73 @@
 ![servico1_headerresponse](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_headerresponse.PNG?raw=true)
 * **Conteúdo da resposta:**
 ~~~json
-{
-    "status": 200,
-    "type": "stack",
-    "data": {
-        "summary": {
-            "total_cases": 444379,
-            "active_cases": 99284,
-            "deaths": 32771,
-            "recovered": 312324,
-            "critical": 0,
-            "tested": 5971974,
-            "death_ratio": 0.07374560904093128,
-            "recovery_ratio": 0.7028324920844594
+[
+    {
+        "updated": 1598481532683,
+        "country": "USA",
+        "countryInfo": {
+            "_id": 840,
+            "iso2": "US",
+            "iso3": "USA",
+            "lat": 38,
+            "long": -97,
+            "flag": "https://disease.sh/assets/img/flags/us.png"
         },
-        "change": {
-            "total_cases": 674,
-            "active_cases": -3860,
-            "deaths": 9,
-            "recovered": 4525,
-            "critical": 0,
-            "tested": 82737,
-            "death_ratio": -9.17378449501044e-5,
-            "recovery_ratio": 0.009130595554107002
-        }
+        "cases": 5955728,
+        "todayCases": 40098,
+        "deaths": 182364,
+        "todayDeaths": 1290,
+        "recovered": 3254282,
+        "todayRecovered": 36301,
+        "active": 2519082,
+        "critical": 16468,
+        "casesPerOneMillion": 17977,
+        "deathsPerOneMillion": 550,
+        "tests": 77931407,
+        "testsPerOneMillion": 235230,
+        "population": 331298704,
+        "continent": "North America",
+        "oneCasePerPeople": 56,
+        "oneDeathPerPeople": 1817,
+        "oneTestPerPeople": 4,
+        "activePerOneMillion": 7603.66,
+        "recoveredPerOneMillion": 9822.8,
+        "criticalPerOneMillion": 49.71
+    },
+    {
+        "updated": 1598481532684,
+        "country": "Brazil",
+        "countryInfo": {
+            "_id": 76,
+            "iso2": "BR",
+            "iso3": "BRA",
+            "lat": -10,
+            "long": -55,
+            "flag": "https://disease.sh/assets/img/flags/br.png"
+        },
+        "cases": 3674176,
+        "todayCases": 46959,
+        "deaths": 116666,
+        "todayDeaths": 1215,
+        "recovered": 2848395,
+        "todayRecovered": 69686,
+        "active": 709115,
+        "critical": 8318,
+        "casesPerOneMillion": 17267,
+        "deathsPerOneMillion": 548,
+        "tests": 14144344,
+        "testsPerOneMillion": 66471,
+        "population": 212789010,
+        "continent": "South America",
+        "oneCasePerPeople": 58,
+        "oneDeathPerPeople": 1824,
+        "oneTestPerPeople": 15,
+        "activePerOneMillion": 3332.48,
+        "recoveredPerOneMillion": 13386.01,
+        "criticalPerOneMillion": 39.09
     }
-}
+]
+
 ~~~
 
 ### Serviço 2
