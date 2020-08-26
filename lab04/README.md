@@ -8,9 +8,9 @@
   - sub_areas (opcional): Se deseja mostrar também as sub-áreas do estado (boolean)
 * **URL completa da requisição**: 'https://api.quarantine.country/api/v1/summary/region?sub_areas=0&region=new_york'
 * **Cabeçalho HTTP da chamada**:
-![servico1_header](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_header.PNG?raw=true)
+<p>![servico1_header](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_header.PNG?raw=true)</p>
 * **Cabeçalho HTTP da resposta:**
-![servico1_headerresponse](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_headerresponse.PNG?raw=true)
+<p>![servico1_headerresponse](https://github.com/felipevboas/inf331/blob/master/lab04/images/servico1_headerresponse.PNG?raw=true)</p>
 * **Conteúdo da resposta:**
 ~~~json
 {
