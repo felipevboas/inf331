@@ -10,7 +10,7 @@
 <div id="iterator"></div>
 ~~~
 
-**JavaScript*
+**JavaScript**
 ~~~html
 class Barra extends React.Component {
   render() {
