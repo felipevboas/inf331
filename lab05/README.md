@@ -11,8 +11,8 @@
 ~~~
 
 **JavaScript*
-class Barra extends React.Component {
 ~~~html
+class Barra extends React.Component {
   render() {
     let resultado = "";
     for (let b = 1; b <= this.props.tamanho; b++)
